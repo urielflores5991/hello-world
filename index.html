@@ -1,18 +1,43 @@
 <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Juego de piedra papel o tijera</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
 
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <title>my-first-website</title>
-  <LINK href="styles.css" rel="stylesheet" type="text/css">
-</head>
+    <header align="center">
+      <h1>Juego de Piedra, Papel o Tijeras</h1>
+    </header>
 
-<body>
+    <div class="marcador">
+      <div class="user-label badge">Usuario</div>
+      <div class="comp-label badge">PC</div>
+      <span id="user-score">0</span> :
+      <span id="comp-score">0</span>
+    </div>
 
-<img src="https://octodex.github.com/images/daftpunktocat-thomas.gif" id="octocat" alt="octocat-gif" />
+    <div class="result">
+      <p>A jugar!!</p>
 
-<!-- Change this code here by copy and pasting your template on line 15 -->
-<p>Welcome to your first GitHub Pages website!</p>
+    </div>
 
-</body>
+    <div class="opciones">
+      <div class="choice" id="r">
+        <img src="images/piedra.png" alt="">
+      </div>
+      <div class="choice" id="p">
+        <img src="images/papel.png" alt="">
+      </div>
+      <div class="choice" id="t">
+        <img src="images/tijera.png" alt="">
+      </div>
+    </div>
+
+    <p id="accion">A Jugar!!!
+    <br>Creado por Uriel Gilberto Flores Gonzalez</p>
+
+    <script type="text/javascript" src="app.js"></script>
+  </body>
 </html>
